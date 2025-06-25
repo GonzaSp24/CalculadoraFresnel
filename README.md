@@ -13,7 +13,7 @@ Una herramienta simple y fácil de usar para calcular el radio de la primera zon
 
 npm install
 
-npm start
+npm run dev
 \`\`\`
 
 4. Abre tu navegador en \`http://localhost:3000\`
@@ -22,8 +22,10 @@ npm start
 Si tienes conflictos de dependencias, usa:
 
 \`\`\`bash
+
 npm install --legacy-peer-deps
-npm start
+
+npm run dev
 \`\`\`
 
 ### Opción 3: Usar Yarn (alternativa)
