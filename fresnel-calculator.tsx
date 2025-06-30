@@ -126,7 +126,7 @@ export default function FresnelCalculator() {
                 <>
                   <Alert className="bg-green-50 border-green-200">
                     <AlertDescription className="text-center">
-                      <div className="text-2xl font-bold text-green-700 mb-1">{result.toFixed(4)} metros</div>
+                      <div className="text-2xl font-bold text-green-700 mb-1">{result} metros</div> 
                       <div className="text-sm text-green-600">Radio de la primera zona de Fresnel (F₁)</div>
                     </AlertDescription>
                   </Alert>
@@ -257,7 +257,7 @@ export default function FresnelCalculator() {
                 <div>
                   <h3 className="font-semibold text-gray-700 mb-1">Paso 3:</h3>
                   <p className="text-gray-600 text-sm">
-                    El resultado se calcula automáticamente y muestra el <strong>radio</strong>
+                    El resultado se calcula automáticamente y muestra el radio
                     de la primera zona de Fresnel en metros.
                   </p>
                 </div>

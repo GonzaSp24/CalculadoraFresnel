@@ -30,7 +30,9 @@ npm run dev
 
 ### Opción 3: Usar Yarn (alternativa)
 \`\`\`bash
+
 yarn install
+
 yarn start
 \`\`\`
 
